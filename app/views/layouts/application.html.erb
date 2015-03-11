@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<header class="top-content">
+        <div class="page__wrapper">
+            <div class="top-content__phone">
+            <div class="top-content__phone__top">+7 495 601 02 105</div>
+            <div class="top-content__phone__footnote">круглосуточно</div>
+        </div>
+
+        <div class="top-content__email">info@gastrolux.ru</div>
+        <a href="#" class="top-content__faq">Задать вопрос специалисту</a>
+        <form action="" method="get" class="top-content__search">
+            <input type="search" name="firstname" value="введите запрос" class="top-content__search__input">
+            <input type="button" value="" class="top-content__search__button">
+        </form>
+        <div class="content__login">
+            <i class="content__login__icon"></i>
+            <a href="#" class="top-content__login__text">Личный кабинет</a>
+        </div>
+        </div>
+
+
+	</header>
+	<div class="page__wrapper">
+ 
+		<menu class="menu-top">
+			<a href="#" class="menu-top__item menu-top__item-first menu-top__item-home">Home</a>
+	        <a href="#" class="menu-top__item menu-top__item-catalog">Products</a>
+	        <a href="#" class="menu-top__item menu-top__item-news">News</a>
+	        <a href="#" class="menu-top__item menu-top__item-dillers">Dillers</a>
+	        <a href="#" class="menu-top__item menu-top__item-gallery">Gallery</a>
+	        <a href="#" class="menu-top__item menu-top__item-FAQ">FAQ</a>
+	        <a href="#" class="menu-top__item menu-top__item-downloads">Downloads</a>
+	        <a href="#" class="menu-top__item menu-top__item-last menu-top__item-contacts">Contacts</a>
+        </menu>
+	
+        <aside class="menu-left">
+            <a href="#" class="menu-left__logo"><img src="/images/logo.jpg"></a>
+            <div class="block-title">Каталог</div>
+            <ul class="menu-left__wrapper">
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+                <li class="menu-left__item-li"><a href="#" class="menu-left__item-a">товар1</a></li>
+            </ul>
+        </aside>
+        <div class="page-content">
+            <div class="home-content-leaders">
+                <div class="block-title">Лидеры продаж</div>
+                <table class="home-content-leaders__leader-table">
+                    <tr>
+                        <td rowspan="2" class="home-content-leaders__leader-td">1</td>
+                        <td class="home-content-leaders__leader-td">2</td>
+                    </tr>
+                    <tr>
+                        <td class="home-content-leaders__leader-td">3</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="page-content__column">
+                <div class="page-content__column__news">
+                    <div class="block-title">Новости</div>
+                    <div class="page-content__column__first"></div>
+                </div>
+            </div>
+            <div class="page-content__column page-content__column-last">
+                <a href="#" class="block-faq block-border-radius">Задать вопрос специалисту</a>
+                <div class="page-content__column__special">
+                    <div class="block-title">Акции</div>
+                    <div class="page-content__column__special__last"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <footer class="down-content">
+      <div class="page__wrapper"></div>
+    </footer>
+</body>
+</html>
